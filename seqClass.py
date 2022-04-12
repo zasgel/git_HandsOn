@@ -24,7 +24,7 @@ else:
 
 if args.motif:
     args.motif = args.motif.upper() #motifs to capitals
-    print(f'Motif search enabled: looking for motif "{args.motif}" in sequence "{args.seq}"... ', end = '')
+    print(f'Motif search enabled: looking for motif "{args.motif}" in sequence "{args.seq}"... ', end = '') #decription that the search has started
     if re.search(args.motif, args.seq): #if the motif is found say found
         print("FOUND")
     else:
