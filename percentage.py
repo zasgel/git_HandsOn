@@ -16,8 +16,4 @@ for char in Seq.upper():
     elif char == "U":
         uCount = uCount + 1
 
-print ("Percentage of A:", (float(aCount) / len(Seq)) * 100)
-print ("Percentage of C:", (float(cCount) / len(Seq)) * 100)
-print ("Percentage of T:", (float(tCount) / len(Seq)) * 100)
-print ("Percentage of G:", (float(gCount) / len(Seq)) * 100)
-print ("Percentage of U:", (float(uCount) / len(Seq)) * 100)
+
